@@ -1,0 +1,35 @@
+.table-list {
+  background-color: #03123d;
+  border-bottom: 1px solid var(--Grey-Stroke, #dedede);
+  height: 54px;
+  position: relative;
+  cursor: pointer;
+}
+td {
+  padding: 0 16px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+}
+.dot {
+  text-align: right;
+}
+.tbody {
+  width: 100% !important;
+}
+.icon-list {
+  display: flex;
+  column-gap: 8px;
+}
+.icon-list svg {
+  width: 18px;
+  height: 18px;
+}
+@media only screen and (max-width: 450px) {
+  td {
+    font-size: 9px !important;
+  }
+}

@@ -1,0 +1,72 @@
+.container .top {
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  display: flex;
+  padding: 20px;
+}
+.toggle {
+  display: flex;
+}
+.grid {
+  display: flex;
+  height: 32px;
+  padding: 4px 30px 4px 4px;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--Grey-3, #f1f1f5);
+}
+
+.co {
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid var(--Grey-Stroke, #dedede);
+}
+.li {
+  border-radius: 0px 4px 4px 0px;
+  border: 1px solid var(--Grey-Stroke, #dedede);
+}
+.normal {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.grid p {
+  color: var(--Grey-2, #696974);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.normal p {
+  color: var(--Grey-2, #696974);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.top h3 {
+  color: var(--White-1, var(--White, #fff));
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+@media only screen and (max-width: 450px) {
+  .container .top {
+    padding: 10px;
+  }
+}

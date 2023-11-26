@@ -1,0 +1,76 @@
+# Query: ../context/DetailsContex
+# ContextLines: 1
+
+14 results - 14 files
+
+src\components\deleteModal\DeleteModal.js:
+  1  import "./modal.css";
+  2  import "./modal.css";
+  3: import DetailsContext from "../../context/DetailsContext";
+  3  const DeleteModal = () => {
+  4  const DeleteModal = () => {
+
+src\components\details\Details.js:
+  2  import logo from "../../images/Rectangle 6.jpg";
+  3: import DetailsContext from "../../context/DetailsContext";
+  4  import { useContext } from "react";
+
+src\components\dropdown\Dropdown.js:
+  2  import "./dropdown.css";
+  3: import DetailsContext from "../../context/DetailsContext";
+  4  const Dropdown = ({ sty, setIsOpen, isOpen }) => {
+
+src\components\grid\Grid.js:
+  3  import Dropdown from "../dropdown/Dropdown";
+  4: import DetailsContext from "../../context/DetailsContext";
+  5  
+
+src\components\header\Header.js:
+  3  import "./header.css";
+  4: import DetailsContext from "../../context/DetailsContext";
+  5  import { useNavigate } from "react-router";
+
+src\components\list\List.js:
+  2  import "./list.css";
+  3: import DetailsContext from "../../context/DetailsContext";
+  4  import Dropdown from "../dropdown/Dropdown";
+
+src\components\navbar\Nav.js:
+  3  import "./nav.css";
+  4: import DetailsContext from "../../context/DetailsContext";
+  5  // navBar for the pages
+
+src\pages\Dashboard.js:
+  5  import "../style/dashboard.css";
+  6: import DetailsContext from "../context/DetailsContext";
+  7  
+
+src\pages\Films.js:
+  8  import List from "../components/list/List";
+  9: import DetailsContext from "../context/DetailsContext";
+  10  import Loader from "../components/Loader/Loader";
+
+src\pages\People.js:
+  7  import axios from "axios";
+  8: import DetailsContext from "../context/DetailsContext";
+  9  import Loader from "../components/Loader/Loader";
+
+src\pages\Planets.js:
+  7  import axios from "axios";
+  8: import DetailsContext from "../context/DetailsContext";
+  9  import Loader from "../components/Loader/Loader";
+
+src\pages\Species.js:
+  7  import axios from "axios";
+  8: import DetailsContext from "../context/DetailsContext";
+  9  import Loader from "../components/Loader/Loader";
+
+src\pages\Starships.js:
+  7  import axios from "axios";
+  8: import DetailsContext from "../context/DetailsContext";
+  9  import Loader from "../components/Loader/Loader";
+
+src\pages\Vehicles.js:
+  7  import axios from "axios";
+  8: import DetailsContext from "../context/DetailsContext";
+  9  import Loader from "../components/Loader/Loader";

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+}
+body {
+  background-color: rgba(3, 18, 61);
+}
+.full-container {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: flex-start;
+}
+.first {
+  background-color: rgba(3, 18, 59);
+  width: 250px;
+  height: 89.8vh;
+}
+.second {
+  background-color: rgba(3, 18, 61);
+  width: 85%;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+  .first {
+    width: 25%;
+  }
+  .second {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .first {
+    display: none;
+  }
+  .second {
+    width: 100%;
+  }
+}
